@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+.alert {
+    background-color: #ff4545;
+    margin: 50px;
+}
+
+form {
+    background-color: white;
+    width: 30%;
+    height: 250px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+input {
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.log-in, .log-out, .register {
+  background-color: #1a3d50;
+  border-radius: 4px;
+  color: #f8f8f8;
+  min-height: 50px;
+  min-width: 100px;
+  outline:0;
+  cursor: pointer;
+}
+
+.log-in:hover, .log-out:hover, .register:hover {
+  background-color: #efbf42;
+}
+
+/* This line makes the "Register" and "Login" buttons look like links */
+.link-button {
+    background:none;
+    color:inherit;
+    border:none;
+    padding:0;
+    font: inherit;
+    outline:0;
+    border-bottom:1px solid #444; 
+    cursor: pointer;
+}
+
+.TableHead{
+    background-color: #1a3d50;
+}
+
+.icon:hover{
+    color: #efbf42;
+}
+
+h1{
+    text-align: center;
+}
+
+#filled-label-native-simple {
+    min-width: 175px; 
+    padding: 5px;
+    /* background-color: #efbf42; THIS CHANGES THE COLOR OF THE DROPDOWN */
+}
